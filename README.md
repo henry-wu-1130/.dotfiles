@@ -1,6 +1,5 @@
 # dotfiles
-[繁體中文](https://github.com/henry-wu-1130/.dotfiles/readme/README.zh_TW) |
-[English](https://github.com/henry-wu-1130/.dotfiles/README.md)
+
 ## Initialization
 
 ### clone .dotfiles to local home directory
@@ -20,6 +19,11 @@ git clone https://github.com/henry-wu-1130/.dotfiles.git
 
 ### install nvm
 - instruction: https://github.com/nvm-sh/nvm
+
+### restore Mackup
+```
+mackup restore
+```
 
 ### configure zsh theme（optional）
 1. add the following line to your `.zshrc`    
