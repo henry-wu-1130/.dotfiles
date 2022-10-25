@@ -110,6 +110,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias chrome-cmm="open -a Google\ Chrome https://trello.com/b/bA9JRTz9/cmm%EF%BC%88%E5%9C%8B%E5%A3%BD%EF%BC%89 https://app.zeplin.io/project/60e1f2554884b912c56cac30/dashboard https://github.com/cruxover/cathaylife_model_management_frontend/issues"
+alias chrome-cdp="open -a Google\ Chrome https://trello.com/b/ITzvBqTn/cdp-%E5%92%8C%E6%B3%B0%E6%99%BA%E6%85%A7%E9%9B%B2 https://app.zeplin.io/project/602ceeddc506162168424ae0/dashboard https://hotaicdp-dev.azurewebsites.net https://github.com/cruxover/Hotai_CDP_web_frontend/issues"
+alias chrome-ipms="open -a Google\ Chrome https://trello.com/b/HELpBXDS/ipms%EF%BC%88fetc%EF%BC%89 https://app.zeplin.io/project/627ca77aaeaeb92bcf27e1fc https://github.com/cruxover/FETC_TPKP_frontend"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
