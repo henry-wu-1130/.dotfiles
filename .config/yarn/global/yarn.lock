@@ -227,6 +227,11 @@ create-react-app@^5.0.1:
     tmp "^0.2.1"
     validate-npm-package-name "^3.0.0"
 
+create-vite@^4.4.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/create-vite/-/create-vite-4.4.1.tgz#7d29a6ec53491914d3b176a7facfecba1b2659fd"
+  integrity sha512-VbE5lc4aO7gterlwTDPxfnEhp/e0xAJui7NydmQiLpKq2yBLTQGcfMXeZeyoIH+E/Di2MQpE4o0K3lZNjlFL+A==
+
 cross-spawn@^6.0.0:
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-6.0.5.tgz#4a5ec7c64dfae22c3a14124dbacdee846d80cbc4"
