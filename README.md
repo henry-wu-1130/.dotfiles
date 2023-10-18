@@ -47,5 +47,5 @@ stow .
 ### manual symbolic VSCode setting.json to your .dotfiles
 
 ```
-ln -s /Users/<your-user-name>/.dotfiles/VSCode/settings.json /Users/<your-user-name>/Library/Application\ Support/Code/User/settings.json
+ln -s ~/.dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ```

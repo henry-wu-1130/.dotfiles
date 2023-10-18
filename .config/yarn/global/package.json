@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "create-express": "^1.0.4",
     "create-react-app": "^5.0.1",
     "create-vite": "^4.4.1",
     "serve": "^13.0.2"

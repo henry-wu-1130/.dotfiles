@@ -1,5 +1,5 @@
 {
-  // "editor.autoIndent": "brackets", // BUG 可能需要搭配 prettier 設定
+  "editor.autoIndent": "brackets", // BUG 可能需要搭配 prettier 設定
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -10,12 +10,12 @@
   "editor.fontLigatures": true, // 與字型有關，箭頭 ==> 會連在一起
   "editor.formatOnSave": true,
   "editor.lineHeight": 24,
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
   "editor.rulers": [80, 120],
   "editor.snippetSuggestions": "top",
   "editor.stickyScroll.enabled": true, // 黏性捲動
-  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnCommitCharacter": true,
   "editor.tabSize": 2,
   "editor.useTabStops": true,
   "editor.wordWrap": "on",
@@ -48,12 +48,14 @@
   /*
    * eslint
    */
-  "eslint.run": "onSave",
+  // "eslint.run": "onSave",
   /*
    * prettier
    */
+  "prettier.trailingComma": "es5",
   "prettier.singleQuote": true,
   "prettier.tabWidth": 2,
+  "prettier.printWidth": 80,
   /*
    * language formatter
    */
@@ -67,7 +69,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -132,7 +134,6 @@
     "REFACTOR",
     "NOTE",
     "OPTIMIZATION",
-    "SPEC",
     "EXPERIMENTAL"
   ],
   "todo-tree.highlights.customHighlight": {
@@ -152,7 +153,14 @@
   /*
    * git
    */
-  "git.suggestSmartCommit": false
+  "git.suggestSmartCommit": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "animations.Install-Method": "Apc Customize UI++",
+  "update.mode": "manual",
+  "window.titleBarStyle": "custom",
+  "vscode_vibrancy.opacity": 0.5
   /*
    * terminal
    */
