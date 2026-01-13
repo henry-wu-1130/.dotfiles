@@ -1,0 +1,9 @@
+[user]
+  name = henliwu
+  email = kawasakininja3021@gmail.com
+  username = henliwu
+[init]
+  defaultBranch = main
+[core]
+  editor = nvim
+	excludesfile = /Users/wuhengli/.gitignore_global

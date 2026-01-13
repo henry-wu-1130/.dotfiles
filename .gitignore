@@ -1,0 +1,6 @@
+# macOS system files
+.DS_Store
+
+# Claude Code config - user specific
+.claude/
+.claude.json
